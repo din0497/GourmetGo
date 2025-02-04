@@ -18,7 +18,7 @@ export default function App() {
             headerStyle: { backgroundColor: "#351401" },
             headerTintColor: "white",
             contentStyle: {
-              backgroundColor: "3f2f25",
+              backgroundColor: "#3f2f25",
             },
           }}
         >
@@ -32,7 +32,7 @@ export default function App() {
           <Stack.Screen
             name="MealsOverview"
             component={MealsOverviewScreen}
- /*            options={({ route, navigation }) => {
+          /*   options={({ route, navigation }) => {
               const cat = route.params
               return {
                 title: cat.id
